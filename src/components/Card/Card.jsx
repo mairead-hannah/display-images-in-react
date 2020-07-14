@@ -5,13 +5,13 @@ export default class Card extends Component {
   state = {  }
   render() { 
     console.log("potter")
-    console.log(this.props.imagedata)
+    console.log(this.props.imageData)
     return (
     <>
     <div className={styles.cardBorder}>
-      <img src ={this.props.imagedata} alt="image"/>
-      <h2>{this.props.imagedata}</h2>
-      <p>{this.props.imagedata}</p>
+      <img src ={this.props.imageData.url} alt="image"/>
+      <h2>{this.props.imageData.title}</h2>
+      <p>{this.props.imageData.description}</p>
     </div>
     </>
     )

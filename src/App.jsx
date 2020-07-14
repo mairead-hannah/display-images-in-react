@@ -15,3 +15,5 @@ class App extends Component {
   }
 }
 export default App;
+
+//to have a situation where at first only the picture is displayed on the card and when you click on the card it displays additional info - (title and text), play with state and set state.  have teh statee - true/false and link in with that.
